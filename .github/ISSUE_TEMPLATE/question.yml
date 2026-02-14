@@ -1,0 +1,16 @@
+name: Question / Support
+description: Ask a question or request help with using Empece
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to achieve?
+      placeholder: I want to deploy a custom MCP for...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What have you tried so far?
